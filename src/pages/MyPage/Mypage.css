@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.profile-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 중앙 정렬 */
+    margin-right: 20px;
+}
+
+.profile-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ccc; /* 원형 프로필 색상 */
+    margin-top: 60px; /* 원을 아래로 이동 */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0; /* 사용자명 기본 여백 제거 */
+}
+
+.content-container {
+    flex: 2;
+    margin-top: 60px;
+}
+
+.favorites,
+.activity-record {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.activity-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-posts,
+.my-comments {
+    flex: 1;
+    margin-right: 10px; /* 두 박스 사이의 여백 */
+}
+
+.my-comments {
+    margin-right: 0; /* 마지막 박스 여백 제거 */
+}
+.favorites-title{
+   
+    text-align: right; /* 오른쪽 정렬 */
+    margin-right: 20px; /* 오른쪽 여백 추가 */
+}
